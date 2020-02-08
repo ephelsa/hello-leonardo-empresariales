@@ -1,11 +1,11 @@
 <?php 
-  $name = 'Leonardo';
+  $name = $_GET['name'];
   $message = "Hello, $name";
 ?>
 
 <html>
   <head>
-    <title><php? echo "$message" ?></title>
+    <title></title>
   </head>
   <body>
     <?php echo "$message"; ?>
